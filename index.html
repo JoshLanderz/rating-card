@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Interactive rating component</title>
+  <script src="https://kit.fontawesome.com/63d3360e1a.js" crossorigin="anonymous"></script>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div id="rating-wrapper" class="rating-wrapper">
+
+    <div class="star-wrapper">
+      <i class="fa-solid fa-star"></i>
+    </div>
+
+    <div class="question-wrapper">
+      <p class="question">How did we do?</p>
+    </div>
+
+    <div class="desc-wrapper">
+      <p class="desc">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+    </div>
+
+    <div class="rating-el-wrapper">
+      <button id="rating-1" value="1" class="rating-el">1</button>
+
+      <button id="rating-2" value="2" class="rating-el">2</button>
+
+      <button id="rating-3" value="3" class="rating-el">3</button>
+
+      <button id="rating-4" value="4" class="rating-el">4</button>
+
+      <button id="rating-5" value="5" class="rating-el">5</button>
+    </div>
+
+    <div class="submit-wrapper">
+      <input id="submit" type="button" value="SUMBIT" class="submit-el">
+    </div>
+    
+  </div>
+
+  <div id="rating-wrapper-two" class="rating-wrapper">
+
+    <div class="process-img">
+      <img src="images/illustration-thank-you.svg">
+    </div>
+
+    <div class="selection-wrapper">
+      <p id="selection-el" class="selection"></p>
+    </div>
+
+    <div class="thank-you-message">
+      <p class="thank-you">Thank you!</p>
+    </div>
+
+    <div class="desc-wrapper2">
+      <p class="desc2">We appreciate you taking the time to give a rating.<br>
+        If you ever need more support, don’t hesitate to<br> get in touch!</p>
+    </div>
+  </div>
+
+<script src="script.js"></script>
+  
+</body>
+</html>
