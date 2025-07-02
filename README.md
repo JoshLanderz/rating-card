@@ -9,6 +9,8 @@ A sleek and responsive product preview card showcasing a luxury perfume item. De
 🔗 [View Live Site](jwratingcomponent.netlify.app)  
 🔧 [View Solution on Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-rating-card-component-xvcEVv4i-i)
 
+<img src="https://github.com/JoshLanderz/jwdesigns-contact-form/blob/main/Screenshot.png">
+
 ---
 
 ## 🛠️ Built With  
